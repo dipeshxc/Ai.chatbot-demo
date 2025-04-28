@@ -1,35 +1,38 @@
-﻿# Ai.chatbot-demo
+# AI Chatbot Demo 🤖
 
- # Groq Chatbot
-
-A simple chatbot application built using Groq's AI models and Gradio interface.
+This is a simple AI Chatbot built with **Python**, **Gradio**, and **Groq API**.
 
 ## Features
+- Chat with a powerful AI model
+- Built using Gradio's Chat Interface
+- Deployed on Hugging Face Spaces
 
-- Interactive chat interface using Gradio
-- Powered by Groq's gemma2-9b-it model
-- Easy-to-use web interface
-- Example prompts included
-
-## Setup
-
-1. Clone this repository
-2. Install dependencies:
+## How to Run Locally
+1. Clone the repository:
    ```bash
+   git clone https://github.com/dipeshxc/Ai.chatbot-demo.git
+   cd Ai.chatbot-demo
+2.Install dependencies:
+
+   bash
    pip install -r requirements.txt
-   ```
-3. Set up your Groq API key in a `.env` file:
-   ```
-   GROQ_API_KEY=your_api_key_here
-   ```
-4. Run the application:
-   ```bash
-   python chatbot96.py
-   ```
 
-## Requirements
+3.Set up your environment variables:
 
-- Python 3.6+
-- Groq API key
-- Required packages 
-  -gradio, python dotenv, groq.
+Create a .env file
+
+Add your Groq API key
+GROQ_API_KEY=your_groq_api_key_here
+
+4.Run the chatbot
+  app.py
+
+
+* Deployment
+    Hosted on Hugging Face Spaces
+
+* Technologies Used
+    Python
+    Gradio
+    Groq API
+    Hugging Face Spaces
